@@ -1,0 +1,10 @@
+from pythonOOP import one
+
+
+one.func()
+
+print('top level in two.py')
+if __name__=='__main__':
+    print('two.py being run directly')
+else:
+    print('two.py is imported')
